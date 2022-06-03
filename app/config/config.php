@@ -1,9 +1,9 @@
 <?php
     // DB Params
     define('DB_HOST', 'localhost');
-    define('DB_USER', '__YOUR_USER__');
-    define('DB_PASS', '__YOUR_PASSWORD__');
-    define('DB_NAME', '__YOUR_DBNAME__');
+    define('DB_USER', 'wakil');
+    define('DB_PASS', 'W@kil');
+    define('DB_NAME', 'rinnnegan_blog ');
 
     // App Root
     /*
@@ -17,7 +17,10 @@
     define('APPROOT', dirname(dirname(__FILE__)));
 
     // URL Root
-    define('URLROOT', '__YOUR_URL__');
+    define('URLROOT', 'http://localhost/blog');
 
     // Site Name
-    define('SiteName', '__YOUR_SITENAME__');
+    define('SiteName', 'Rinnegan Blog');
+
+    // App Version
+    define('AppVersion','1.0.0');

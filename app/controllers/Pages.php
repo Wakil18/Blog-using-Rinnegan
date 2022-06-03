@@ -6,7 +6,8 @@ class Pages extends Controller {
 
     public function index(){
         $data = [
-            'title' => 'Welcome',
+            'title' => 'Rinnegan Blog',
+            'description' => 'Simple blog page build on Rinnegan MVC framework.'
         ];
 
         $this->view('pages/index', $data);
@@ -14,7 +15,8 @@ class Pages extends Controller {
 
     public function about(){
         $data = [
-            'title' => 'About Us'
+            'title' => 'About Us',
+            'description' => 'Share your thoughts with others.'
         ];
 
         $this->view('pages/about', $data);
