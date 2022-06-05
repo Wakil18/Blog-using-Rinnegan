@@ -3,7 +3,7 @@
     define('DB_HOST', 'localhost');
     define('DB_USER', 'wakil');
     define('DB_PASS', 'W@kil');
-    define('DB_NAME', 'rinnnegan_blog ');
+    define('DB_NAME', 'rinnnegan_blog');
 
     // App Root
     /*

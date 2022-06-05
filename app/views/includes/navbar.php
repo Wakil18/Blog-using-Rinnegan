@@ -28,12 +28,18 @@
         <input class="form-control" type="text" placeholder="Search" aria-label="Search">
         </form> -->
         <ul class="navbar-nav ml-auto mb-2 mb-lg-0">
-            <li class="nav-item">
-                <a class="nav-link" aria-current="page" href="<?php echo URLROOT; ?>/users/register">Register</a>
-            </li>
-            <li class="nav-item">
-                <a class="nav-link" aria-current="page" href="<?php echo URLROOT; ?>/users/login">Login</a>
-            </li>
+            <?php if(isset($_SESSION['user_id'])) : ?>
+                <li class="nav-item">
+                    <a class="nav-link" aria-current="page" href="#">Logout</a>
+                </li>
+            <?php else : ?>
+                <li class="nav-item">
+                    <a class="nav-link" aria-current="page" href="<?php echo URLROOT; ?>/users/register">Register</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" aria-current="page" href="<?php echo URLROOT; ?>/users/login">Login</a>
+                </li>
+            <?php endif; ?>
         </ul>
     </div>
     </div>

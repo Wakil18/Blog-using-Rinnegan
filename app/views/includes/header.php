@@ -14,7 +14,7 @@
     <link rel="stylesheet" href="<?php echo URLROOT; ?>/css/style.css">
     <title><?php echo SiteName; ?></title>
 </head>
-<body>
+<body class="bg-secondary bg-gradient">
     <?php require APPROOT . '/views/includes/navbar.php'; ?>
     <div class="container">
     
